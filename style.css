@@ -1,23 +1,134 @@
-*{
-    box-sizing: border-box;
-}
-
-body{
-    font-family: Arial;
-}
-
 .header{
     padding: 30px;
     text-align: left;
-    background-color: darkgrey;
+    background-color: rgb(255, 255, 255);
 }
 
 .topnav{
     overflow: hidden;
-    background-color: coral;
+    background-color: rgb(63, 133, 230);
+    width: 2000px;
 }
 
 .topnav a:hover{
     background-color: white;
     color: black;
+    
+}
+
+h2{
+    background-color: gray;
+    width: 1200px;
+    border: 3px solid black;
+    position: relative;
+    bottom: 20px;
+    right: 2px;
+    
+}
+
+.parent{
+    width: 1200px;
+    height: 1000px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.child1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    bottom: 700px;
+    z-index: 2;
+}
+.child2{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    z-index: 2;
+}
+
+.child3{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    z-index: 2;
+}
+.child4{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 750px;
+    top: 0px;
+    z-index: 2;
+}
+.box{
+    width: 1100px;
+    height: 200px;
+    background-color: rgb(38, 104, 173);
+    position: absolute;
+    z-index: 0;
+    left: 25px;
+}
+.box2{
+    background-color: rgb(38, 104, 173);
+    width: 100px;
+    position: absolute;
+    left: 1020px;
+    top: 200px;
+    z-index: 2;
+}
+.box5{
+    background-color:purple;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 650px;
+    left:575px;
+}
+ .note{
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top: 600px;
+ }
+.box3{
+    background-color: gray;
+    width: 1200px;
+    height: 10px;
+    position: absolute;
+    top: 550px;
+}
+.box4{
+    background-color:greenyellow;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 650px;
+    left: 25px;
+}
+
+.box6{
+    background-color:greenyellow;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 650px;
+    left: 25px;
+}
+.box7{
+    background-color:rgb(25, 169, 83);
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 650px;
+    left: 25px;
 }
