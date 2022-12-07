@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.header{
+    padding: 30px;
+    text-align: left;
+    background-color: darkgrey;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: coral;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
